@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+	background-image: url('../rain.gif');
+}
+
+.container {
+	background-color: #050;
+	color: #fff;
+	font-weight: bold;
+	border-radius: .5rem;
+	width: 300px;
+	padding: 30px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
